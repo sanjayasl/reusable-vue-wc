@@ -5,6 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-pro": "vue-cli-service build --target wc --name quantity-button ./src/index.js",
+    "build-reusable-wc": "vue-cli-service build --target wc --name quantity-button ./src/components/QuantityButton.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
